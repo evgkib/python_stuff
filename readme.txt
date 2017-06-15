@@ -2,7 +2,7 @@
 import peewee as pw
 import random
 
-myDB = pw.MySQLDatabase("test", host="localhost", port=3306, user="python", passwd="spartak")
+myDB = pw.MySQLDatabase("test", host="localhost", port=3306, user="python", passwd="")
 
 class MySQLModel(pw.Model):
     """A base model that will use our MySQL database"""
